@@ -33,3 +33,5 @@ a {
 .on {
     display: inline;
 }
+
+.portuguese:before {content: ' (link in Portuguese)';}
