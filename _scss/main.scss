@@ -1,0 +1,70 @@
+// @import "reset";
+@import "syntax";
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+body {
+    background: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  color: #ff1a64 !important;
+  text-decoration: none;
+  // border-bottom: solid 1.5px #ff1a64 !important;
+}
+a:hover   { color: #333; }
+a:visited { color: #333; }
+
+.container-fluid {
+  padding: 15px;
+}
+
+.row {
+  margin: 0;
+}
+
+.project-main-img {
+  height: 80vh;
+  background: no-repeat center center;
+  background-size: cover;
+
+  // border: 5px solid;
+  // border-image-slice: 1;
+  // border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);
+}
+.project-text {
+  border-left: 3px solid #ff1a64;
+  margin-left: 0.75rem;
+  margin-top: 0.25rem;
+  padding: 1.25rem 0 0 0.75rem;
+}
+
+.col-md-4 {
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.carousel-item {
+  margin-top: 2rem;
+  height: 80vh;
+  max-height: 800px;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #333 !important;
+}

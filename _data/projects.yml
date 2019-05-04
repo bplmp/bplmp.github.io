@@ -1,0 +1,126 @@
+- title: Waste Scenario
+  status: published
+  order: 1
+  hash: wsn
+  date: 2016-05-01
+  mainImage: "wastescenario-1.jpg"
+  mainGif:
+  otherImages: [wastescenario-1.png, wastescenario-2.png, wastescenario-3.png, wastescenario-4.png, wastescenario-5.png]
+  url: https://wastescenario.herokuapp.com
+  tags: [scenario-building, waste, gis]
+  tools: [AngularJS, Node. js, Leaflet, Highcharts, speculative design]
+  description: ["A scenario-building tool that helps users envision a Zero Waste New York City.", "Used at a workshop hosted as part of my Master’s Thesis. Participants included community members, activists, urban planners, and waste management specialists."]
+
+- title: Gender in Street Names
+  status: published
+  order: 2
+  hash: gsn
+  date: 2018-05-01
+  mainImage: "gender-in-street-names-1.png"
+  mainGif:
+  otherImages: [gender-in-street-names-1.png, gender-in-street-names-2.png, gender-in-street-names-3.png, gender-in-street-names-4.png]
+  url: https://medidasp.com/projetos/genero-ruas/#11.55/-23.546/-46.6511
+  tags: [maps, data vis, web]
+  tools: [SQL, PostGIS, MapboxGL, vector tiles, Javascript, HTML, CSS]
+  description: ["An interactive map of every street in Brazil visualized by the gender of its name.", "The bar graph on the right displays the sum of streets for the current view, and is updated on- the-fly when the map is moved."]
+
+- title: Smart Cities, Surveilled Cities
+  status: published
+  order:
+  hash: scs
+  date: 2017-05-01
+  mainImage: "smart-cities-surveilled-cities-1.png"
+  mainGif:
+  otherImages: [smart-cities-surveilled-cities-1.png, smart-cities-surveilled-cities-2.jpg, smart-cities-surveilled-cities-3.jpg, smart-cities-surveilled-cities-4.png]
+  url: https://medium.com/@medidasp/neste-m%C3%AAs-realizamos-em-parceria-com-leila-santiago-uma-oficina-como-parte-da-file-2017-o-8ad7c7e22033
+  tags: [maps, speculative design]
+  tools: [Mapbox, Odyssey.js, speculative design]
+  description: ["A workshop where participants discuss the social and political implications of smart cities through speculative design and cartography.", "Participants create speculative scenarios for a future 'São Paulo Smart City.' Then, they design basemaps and map-based narratives for their scenarios."]
+  team: [Leila Santiago]
+
+- title: Getting to Zero - Waste Journeys
+  status: published
+  order:
+  hash: gtz
+  date: 2017-03-01
+  mainImage: "getting-to-zero-1.png"
+  mainGif:
+  otherImages: [getting-to-zero-1.png, getting-to-zero-2.jpg, getting-to-zero-3.jpg]
+  url: http://journeys.gettingtozero.nyc/
+  tags: [narrative, web, research]
+  tools: [HTML, CSS, jQuery, JavaScript, D3, Photoshop]
+  description: ["A side-scrolling visualization displaying the several possible journeys for New York City’s waste.", "The visualization was designed as a cross-section of these journeys, and uses photo montages, texts, and animated maps to convey its logistics."]
+  team:
+  client: [Open House New York]
+
+- title: Brazilian Cities Commute Map
+  status: published
+  order:
+  hash: bcc
+  date: 2018-03-01
+  mainImage:
+  mainGif:
+  otherImages: [brazilian-cities-commute-1.jpg, brazilian-cities-commute-2.png]
+  url: https://medidasp.com/tempo-deslocamento
+  tags: [research, maps, web]
+  tools: [QGIS, SQL, PostGIS, CARTO]
+  description: ["Based on never before visualized Census Data, the map allows the comparison of commute times in and accross different Brazilian cities.", "Developed as part of a research paper, presented at the Brazilian National Transportation Agency Congress, 2018."]
+  team: [Pedro Guedes, Romero Maia]
+  client:
+  publications:
+    - name: "ANTP Congress, 2018"
+      link: "https://medidasp.com/assets/pdfs/artigo-antp-tempo-deslocamento.pdf"
+
+- title: No-Delivery Areas
+  status: published
+  order:
+  hash: nda
+  date: 2017-03-01
+  mainImage:
+  mainGif:
+  otherImages: [no-delivery-areas-4.png, no-delivery-areas-1.png, no-delivery-areas-2.jpg, no-delivery-areas-3.png]
+  url: https://medium.com/@medidasp/mapa-onde-os-correios-nao-entregam-sp-9fcd7fee7e9e
+  tags: [research, analysis, maps]
+  tools: [data scraping, QGIS, PostGIS, CARTO]
+  description: ["Analysis of areas in the city of São Paulo where there is no residential package delivery (red) or longer times for delivery (purple), because of 'saftety concerns'.", "Spatializing this data, previously locked in pdfs, showed the spatial disparity in service. Poor neighborhoods in the city’s periphery accounted for the great majority of these areas."]
+  team:
+  client:
+  publications:
+    - name: Nexo Jornal
+      link: "https://www.nexojornal.com.br/expresso/2017/11/12/Este-mapa-mostra-os-lugares-de-S%C3%A3o-Paulo-onde-os-Correios-nem-sempre-chegam"
+    - name: Folha de São Paulo
+      link: "https://www1.folha.uol.com.br/cotidiano/2017/12/1946271-violencia-restringe-entrega-de-produto-pelos-correios-em-29-da-cidade-de-sp.shtml"
+    - name: UOL TAB
+      link: "https://tab.uol.com.br/noticias/redacao/2019/04/25/onde-o-correio-nao-chega-por-temor-de-roubo-mercearia-vira-caixa-postal.htm"
+
+- title: "'Decorrência' (Consequence)"
+  status: published
+  order:
+  hash: csq
+  date: 2018-03-01
+  mainImage:
+  mainGif:
+  otherImages: [consequence-2.jpg, consequence-0.png, consequence-1.png, consequence-3.jpg, consequence-4.jpg, consequence-5.jpg, consequence-6.jpg]
+  url: https://twitter.com/decorrencia
+  tags: [data vis, narrative, bots]
+  tools: [Python, OpenStreetMap, Google Street View]
+  description: ["A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo.", "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."]
+  team:
+  client:
+  publications:
+
+- title: Conquer and Divide
+  status: draft
+  order:
+  hash: cnd
+  date: 2018-03-01
+  mainImage:
+  mainGif:
+  otherImages: [conquer-and-divide-1.png, conquer-and-divide-2.png, conquer-and-divide-3.png, conquer-and-divide-4.png, conquer-and-divide-5.png]
+  url: https://conquer-and-divide.btselem.org/
+  tags: [maps, narrative, web]
+  tools: [HTML, CSS, JavaScript, MapboxGL]
+  description: ["A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo.", "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."]
+  team: [Francesco Sebregondi (Coordinator)]
+  client: [Forensic Architecture]
+  publications:
