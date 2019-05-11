@@ -1,4 +1,4 @@
 name: Bernardo Loureiro
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json", "tmp"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "tmp"]
