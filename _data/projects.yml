@@ -110,7 +110,7 @@
   publications:
 
 - title: Conquer and Divide
-  status: draft
+  status: published
   order:
   hash: cnd
   date: 2018-03-01
@@ -120,7 +120,7 @@
   url: https://conquer-and-divide.btselem.org/
   tags: [maps, narrative, web]
   tools: [HTML, CSS, JavaScript, MapboxGL]
-  description: ["A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo.", "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."]
-  team: [Francesco Sebregondi (Coordinator)]
+  description: ["Conquer and Divide is a map-focused, scrolling narrative about the occupation of Palestine, commissioned by the Israeli NGO B'Tselem.", "As the user scrolls, map layers and animations are triggered, narrating a timeline of the more than five decades of occupation."]
+  team: [Francesco Sebregondi (Project Coordinator)]
   client: [Forensic Architecture]
   publications:
