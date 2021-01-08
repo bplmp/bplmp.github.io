@@ -44,6 +44,11 @@ title: Bernardo Loureiro
               <a href="{{ project.url }}" target="_blank">
                 Project site &raquo;
               </a>
+              {% for i in project.otherImages %}
+                <div class="">
+                  <img src="public/images/{{ project.hash }}/{{ i }}" class="d-block w-100">
+                </div>
+              {% endfor %}
               <hr>
               <p class="small">tools: <span>{{ project.tools | array_to_sentence_string: "" }}</span></p>
               {% if project.team != nil %}

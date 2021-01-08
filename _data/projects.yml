@@ -1,6 +1,22 @@
-- title: Waste Scenario
+- title: Analysis of Covid-19 Deaths by Age and Income, São Paulo
   status: published
   order: 1
+  hash: cai
+  date: 2020-06-11
+  mainImage: "covid-deaths-age-income-1.png"
+  mainGif:
+  otherImages: ["covid-deaths-age-income-1.png", "covid-deaths-age-income-2.png"]
+  url: https://medium.com/@medidasp/an-analysis-of-covid-19-deaths-by-age-and-income-in-s%C3%A3o-paulo-brazil-be7fb28af0d2
+  tags: [data-analysis, gis, inequality]
+  tools: [Python, Jupyter Notebooks]
+  description: ["I’ve analyzed data from the Brazilian Health Ministry to understand how Covid-19 deaths in the São Paulo Metro area are distributed according to age and income.", "I’ve found out that residents from lower-income areas are dying more because of the disease, even when controlling for population size in each age and income bucket."]
+  media:
+    - name: G1 Globo
+      link: https://g1.globo.com/sp/sao-paulo/noticia/2020/06/16/estudo-mostra-que-66percent-de-mortos-por-covid-19-na-grande-sp-ganhavam-menos-de-3-salarios-minimos.ghtml
+
+- title: Waste Scenario
+  status: published
+  order: 9
   hash: wsn
   date: 2016-05-01
   mainImage: "wastescenario-1.jpg"
@@ -13,7 +29,7 @@
 
 - title: Gender in Street Names
   status: published
-  order: 2
+  order: 4
   hash: gsn
   date: 2018-05-01
   mainImage: "gender-in-street-names-1.png"
@@ -26,7 +42,7 @@
 
 - title: Smart Cities, Surveilled Cities
   status: published
-  order:
+  order: 7
   hash: scs
   date: 2017-05-01
   mainImage: "smart-cities-surveilled-cities-1.png"
@@ -40,7 +56,7 @@
 
 - title: Getting to Zero - Waste Journeys
   status: published
-  order:
+  order: 8
   hash: gtz
   date: 2017-03-01
   mainImage: "getting-to-zero-1.png"
@@ -55,7 +71,7 @@
 
 - title: Brazilian Cities Commute Map
   status: published
-  order:
+  order: 5
   hash: bcc
   date: 2018-03-01
   mainImage:
@@ -67,13 +83,13 @@
   description: ["Based on never before visualized Census Data, the map allows the comparison of commute times in and accross different Brazilian cities.", "Developed as part of a research paper, presented at the Brazilian National Transportation Agency Congress, 2018."]
   team: [Pedro Guedes, Romero Maia]
   client:
-  publications:
+  media:
     - name: "ANTP Congress, 2018"
       link: "https://medidasp.com/assets/pdfs/artigo-antp-tempo-deslocamento.pdf"
 
 - title: No-Delivery Areas
   status: published
-  order:
+  order: 6
   hash: nda
   date: 2017-03-01
   mainImage:
@@ -85,7 +101,7 @@
   description: ["Analysis of areas in the city of São Paulo where there is no residential package delivery (red) or longer times for delivery (purple), because of 'saftety concerns'.", "Spatializing this data, previously locked in pdfs, showed the spatial disparity in service. Poor neighborhoods in the city’s periphery accounted for the great majority of these areas."]
   team:
   client:
-  publications:
+  media:
     - name: Nexo Jornal
       link: "https://www.nexojornal.com.br/expresso/2017/11/12/Este-mapa-mostra-os-lugares-de-S%C3%A3o-Paulo-onde-os-Correios-nem-sempre-chegam"
     - name: Folha de São Paulo
@@ -95,7 +111,7 @@
 
 - title: "'Decorrência' (Consequence)"
   status: published
-  order:
+  order: 10
   hash: csq
   date: 2018-03-01
   mainImage:
@@ -107,11 +123,11 @@
   description: ["A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo.", "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."]
   team:
   client:
-  publications:
+  media:
 
 - title: Conquer and Divide
   status: published
-  order:
+  order: 2
   hash: cnd
   date: 2018-03-01
   mainImage:
@@ -123,4 +139,4 @@
   description: ["Conquer and Divide is a map-focused, scrolling narrative about the occupation of Palestine, commissioned by the Israeli NGO B'Tselem.", "As the user scrolls, map layers and animations are triggered, narrating a timeline of the more than five decades of occupation."]
   team: [Francesco Sebregondi (Project Coordinator)]
   client: [Forensic Architecture]
-  publications:
+  media:
