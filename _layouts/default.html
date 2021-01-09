@@ -6,48 +6,23 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="/public/css/main.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="js/main.js" charset="utf-8"></script>
+        <script src="/js/main.js" charset="utf-8"></script>
     </head>
     <body>
 
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12">
-              <h1 class="title"><a href="">{{ site.name }}</a></h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-md-4">
-              <p>I am an urbanist and I work as a consultant and developer in data analysis, visualization, and mapping.</p>
-              <p>I also teach classes and workshops on these topics.</p>
-              <p>I run <a href="https://medidasp.com/" target="_blank">Medida SP</a>, an urban data visualization lab in São Paulo, Brazil.</p>
-              <p>Get in touch: <a href="https://github.com/bplmp">Github</a>, <a href="https://www.linkedin.com/in/loureirobernardo">LinkedIn</a>, <a href="https://medium.com/@medidasp/">Medium</a>, bernardo@medidasp.com.</p>
-            </div>
-          </div>
+          {% include nav.html %}
 
-          <div class="">
-            {{ content }}
-          </div>
+          {{ content }}
 
-
-          <div class="footer">
-            <hr>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/bplmp">github.com/bplmp</a><br />
-                <a href="https://www.linkedin.com/in/loureirobernardo">linkedin.com/in/loureirobernardo</a><br />
-                bernardo@medidasp.com
-              </p>
-            </div>
-          </div>
+          {% include footer.html %}
         </div>
 
         <script>

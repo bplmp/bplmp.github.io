@@ -1,4 +1,4 @@
-- title: Analysis of Covid-19 Deaths by Age and Income, São Paulo
+- title: Covid-19 Deaths by Age and Income
   status: published
   order: 1
   hash: cai
@@ -9,7 +9,9 @@
   url: https://medium.com/@medidasp/an-analysis-of-covid-19-deaths-by-age-and-income-in-s%C3%A3o-paulo-brazil-be7fb28af0d2
   tags: [data-analysis, gis, inequality]
   tools: [Python, Jupyter Notebooks]
-  description: ["I’ve analyzed data from the Brazilian Health Ministry to understand how Covid-19 deaths in the São Paulo Metro area are distributed according to age and income.", "I’ve found out that residents from lower-income areas are dying more because of the disease, even when controlling for population size in each age and income bucket."]
+  description:
+      - "Analysis of how Covid-19 deaths in the São Paulo Metro area are distributed according to age and income."
+      - "I’ve found out that residents from lower-income areas are dying more because of the disease, even when controlling for population size in each age and income bucket."
   media:
     - name: G1 Globo
       link: https://g1.globo.com/sp/sao-paulo/noticia/2020/06/16/estudo-mostra-que-66percent-de-mortos-por-covid-19-na-grande-sp-ganhavam-menos-de-3-salarios-minimos.ghtml
@@ -25,7 +27,9 @@
   url: https://wastescenario.herokuapp.com
   tags: [scenario-building, waste, gis]
   tools: [AngularJS, Node. js, Leaflet, Highcharts, speculative design]
-  description: ["A scenario-building tool that helps users envision a Zero Waste New York City.", "Used at a workshop hosted as part of my Master’s Thesis. Participants included community members, activists, urban planners, and waste management specialists."]
+  description:
+    - "A scenario-building tool that helps envision a Zero Waste New York City."
+    - "Used at a workshop hosted as part of my Master’s Thesis. Participants included community members, activists, urban planners, and waste management specialists."
 
 - title: Gender in Street Names
   status: published
@@ -38,8 +42,10 @@
   url: https://medidasp.com/projetos/genero-ruas/#11.55/-23.546/-46.6511
   tags: [maps, data vis, web]
   tools: [SQL, PostGIS, MapboxGL, vector tiles, Javascript, HTML, CSS]
-  description: ["An interactive map of every street in Brazil visualized by the gender of its name.", "The bar graph on the right displays the sum of streets for the current view, and is updated on- the-fly when the map is moved."]
-
+  description:
+    - "An interactive map of every street in Brazil visualized by the gender of its name."
+    - "See the video below for more about the process."
+    - <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/eR3ZBphcC70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 - title: Smart Cities, Surveilled Cities
   status: published
   order: 7
@@ -65,7 +71,9 @@
   url: http://journeys.gettingtozero.nyc/
   tags: [narrative, web, research]
   tools: [HTML, CSS, jQuery, JavaScript, D3, Photoshop]
-  description: ["A side-scrolling visualization displaying the several possible journeys for New York City’s waste.", "The visualization was designed as a cross-section of these journeys, and uses photo montages, texts, and animated maps to convey its logistics."]
+  description:
+    - "Possible journeys for New York City’s waste, in a web-based visualization."
+    - "Designed as a cross-section of these journeys, the visualization uses photo montages, texts, and animated maps to convey its logistics."
   team:
   client: [Open House New York]
 
@@ -80,7 +88,9 @@
   url: https://medidasp.com/tempo-deslocamento
   tags: [research, maps, web]
   tools: [QGIS, SQL, PostGIS, CARTO]
-  description: ["Based on never before visualized Census Data, the map allows the comparison of commute times in and accross different Brazilian cities.", "Developed as part of a research paper, presented at the Brazilian National Transportation Agency Congress, 2018."]
+  description:
+    - "Mapping commute times accross different Brazilian cities."
+    - "Developed as part of a research paper, presented at the Brazilian National Transportation Agency Congress, 2018. Based on Census Data which hadn't been previously visualized."
   team: [Pedro Guedes, Romero Maia]
   client:
   media:
@@ -98,7 +108,9 @@
   url: https://medium.com/@medidasp/mapa-onde-os-correios-nao-entregam-sp-9fcd7fee7e9e
   tags: [research, analysis, maps]
   tools: [data scraping, QGIS, PostGIS, CARTO]
-  description: ["Analysis of areas in the city of São Paulo where there is no residential package delivery (red) or longer times for delivery (purple), because of 'saftety concerns'.", "Spatializing this data, previously locked in pdfs, showed the spatial disparity in service. Poor neighborhoods in the city’s periphery accounted for the great majority of these areas."]
+  description:
+    - "Analysis of areas in the city of São Paulo with restrictions to residential package delivery, because of 'saftety concerns'."
+    - "Spatializing this data, previously locked in pdfs, showed the spatial disparity in service. Poor neighborhoods in the city’s periphery accounted for the great majority of these areas."
   team:
   client:
   media:
@@ -120,7 +132,10 @@
   url: https://twitter.com/decorrencia
   tags: [data vis, narrative, bots]
   tools: [Python, OpenStreetMap, Google Street View]
-  description: ["A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo.", "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."]
+  description:
+    - "A Twitter bot documenting cases of persons killed 'as a consequence of resisting police action' in the state of São Paulo."
+    - "It tweets street-level imagery of the location of the killing, along with data about the victims, prompting questions about police violence, inequality, place, and justice."
+    - <blockquote class="twitter-tweet"><p lang="pt" dir="ltr">01-01-2020 // B.O. 6.0<br>PELA MANHÃ // PIRAJUSSARA // EMBU DAS ARTES, SP // 1 MORTE<br>MORTE#1 // MASCULINO // 20 ANOS // SOLTEIRO // DESEMPREGADO // PRETA<a href="https://twitter.com/hashtag/mapa?src=hash&amp;ref_src=twsrc%5Etfw">#mapa</a> <a href="https://twitter.com/hashtag/violencia?src=hash&amp;ref_src=twsrc%5Etfw">#violencia</a> <a href="https://twitter.com/hashtag/dadosabertos?src=hash&amp;ref_src=twsrc%5Etfw">#dadosabertos</a> <a href="https://twitter.com/hashtag/transparencia?src=hash&amp;ref_src=twsrc%5Etfw">#transparencia</a> <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://twitter.com/hashtag/visualizacao?src=hash&amp;ref_src=twsrc%5Etfw">#visualizacao</a> <a href="https://t.co/KsBNJdz8JL">pic.twitter.com/KsBNJdz8JL</a></p>&mdash; Decorrência (@decorrencia) <a href="https://twitter.com/decorrencia/status/1344946759575986176?ref_src=twsrc%5Etfw">January 1, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   team:
   client:
   media:
@@ -128,7 +143,7 @@
 - title: Conquer and Divide
   status: published
   order: 2
-  hash: cnd
+  hash: conquer-and-divide
   date: 2018-03-01
   mainImage:
   mainGif:
@@ -136,7 +151,9 @@
   url: https://conquer-and-divide.btselem.org/
   tags: [maps, narrative, web]
   tools: [HTML, CSS, JavaScript, MapboxGL]
-  description: ["Conquer and Divide is a map-focused, scrolling narrative about the occupation of Palestine, commissioned by the Israeli NGO B'Tselem.", "As the user scrolls, map layers and animations are triggered, narrating a timeline of the more than five decades of occupation."]
+  description:
+    - "A map-based digital narrative about the occupation of Palestine, commissioned by the Israeli NGO B'Tselem."
+    - "As the user scrolls, map layers and animations are triggered, narrating a timeline of the more than five decades of occupation."
   team: [Francesco Sebregondi (Project Coordinator)]
   client: [Forensic Architecture]
   media:
