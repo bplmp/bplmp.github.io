@@ -1,0 +1,55 @@
+- title: Data Publishers
+  status: published
+  order: 1
+  hash: data-publishers
+  date: 2020-10-01
+  mainImage: "data-publishers-1.png"
+  mainGif:
+  otherImages: [data-publishers-1.png, data-publishers-2.png, data-publishers-3.png]
+  url: https://escoladedados.org/courses/publicadores-de-dados/
+  tags: [open data, government]
+  tools: [data visualization]
+  description:
+    - A School of Data course designed for public sector employees.
+    - I've developed and taught classes on data visualization, dashboards, data processing and ETL.
+    - The examples were focused on real-life challenges for public servants with real governmental open data.
+  client:
+    - name: Open Knowledge Brasil
+      url: https://www.ok.org.br/
+    - name: School of Data
+      url: https://escoladedados.org/
+
+- title: Maps and data visualization for cities
+  status: published
+  order: 2
+  hash: maps-datavis-cities
+  date: 2018-11-01
+  mainImage: "maps-datavis-cities-1.png"
+  mainGif:
+  otherImages: [maps-datavis-cities-1.png, maps-datavis-cities-2.png, maps-datavis-cities-3.png]
+  url: https://centrodepesquisaeformacao.sescsp.org.br/atividade/mapas-e-sistemas-de-visualizacao-de-dados-da-cidade
+  tags: [urban data, data visualization]
+  tools: [data visualization]
+  description:
+    - "A course on how data and cities interact, divided in four topics: infrastructure, visualization, simulation, and collaboration."
+    - "Developed for and taught at SESC's Center for Research (CPF)."
+  client:
+    - name: SESC SP
+      url: https://www.sescsp.org.br/
+
+- title: Smart Cities, Surveilled Cities
+  status: published
+  order: 2
+  hash: smart-cities-surveilled-cities
+  date: 2017-05-01
+  mainImage: "smart-cities-surveilled-cities-1.png"
+  mainGif:
+  otherImages: [smart-cities-surveilled-cities-1.png, smart-cities-surveilled-cities-2.jpg, smart-cities-surveilled-cities-3.jpg, smart-cities-surveilled-cities-4.png]
+  url: https://medium.com/@medidasp/neste-m%C3%AAs-realizamos-em-parceria-com-leila-santiago-uma-oficina-como-parte-da-file-2017-o-8ad7c7e22033
+  tags: [maps, speculative design]
+  tools: [Mapbox, Odyssey.js, speculative design]
+  description: ["A workshop where participants discuss the social and political implications of smart cities through speculative design and cartography.", "Participants create speculative scenarios for a future 'São Paulo Smart City.' Then, they design basemaps and map-based narratives for their scenarios."]
+  team: [Leila Santiago]
+  client:
+    - name: FILE Festival
+      url: https://file.org.br/?lang=en

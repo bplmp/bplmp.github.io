@@ -1,0 +1,7 @@
+{% if project.client != nil %}
+	<p class="small">client: 
+		{% for c in project.client %}
+			<span><a href="{{ c.url }}" target="_blank">{{ c.name }}</a>{% if forloop.last == false %}, {% endif %}</span>
+		{% endfor %}
+	</p>
+{% endif %}

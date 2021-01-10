@@ -1,7 +1,7 @@
 - title: Covid-19 Deaths by Age and Income
   status: published
   order: 1
-  hash: cai
+  hash: covid-deaths-age-income
   date: 2020-06-11
   mainImage: "covid-deaths-age-income-1.png"
   mainGif:
@@ -14,12 +14,12 @@
       - "I’ve found out that residents from lower-income areas are dying more because of the disease, even when controlling for population size in each age and income bucket."
   media:
     - name: G1 Globo
-      link: https://g1.globo.com/sp/sao-paulo/noticia/2020/06/16/estudo-mostra-que-66percent-de-mortos-por-covid-19-na-grande-sp-ganhavam-menos-de-3-salarios-minimos.ghtml
+      url: https://g1.globo.com/sp/sao-paulo/noticia/2020/06/16/estudo-mostra-que-66percent-de-mortos-por-covid-19-na-grande-sp-ganhavam-menos-de-3-salarios-minimos.ghtml
 
 - title: Waste Scenario
   status: published
   order: 9
-  hash: wsn
+  hash: wastescenario
   date: 2016-05-01
   mainImage: "wastescenario-1.jpg"
   mainGif:
@@ -30,11 +30,13 @@
   description:
     - "A scenario-building tool that helps envision a Zero Waste New York City."
     - "Used at a workshop hosted as part of my Master’s Thesis. Participants included community members, activists, urban planners, and waste management specialists."
+    - <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/W0Fc6fL7ajs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    - "You can read the <a href=\"https://issuu.com/blpbl/docs/bl-thesis-may-2016\" target=\"_blank\">full thesis book here.</a>"
 
 - title: Gender in Street Names
   status: published
   order: 4
-  hash: gsn
+  hash: gender-in-street-names
   date: 2018-05-01
   mainImage: "gender-in-street-names-1.png"
   mainGif:
@@ -46,24 +48,11 @@
     - "An interactive map of every street in Brazil visualized by the gender of its name."
     - "See the video below for more about the process."
     - <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/eR3ZBphcC70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-- title: Smart Cities, Surveilled Cities
-  status: published
-  order: 7
-  hash: scs
-  date: 2017-05-01
-  mainImage: "smart-cities-surveilled-cities-1.png"
-  mainGif:
-  otherImages: [smart-cities-surveilled-cities-1.png, smart-cities-surveilled-cities-2.jpg, smart-cities-surveilled-cities-3.jpg, smart-cities-surveilled-cities-4.png]
-  url: https://medium.com/@medidasp/neste-m%C3%AAs-realizamos-em-parceria-com-leila-santiago-uma-oficina-como-parte-da-file-2017-o-8ad7c7e22033
-  tags: [maps, speculative design]
-  tools: [Mapbox, Odyssey.js, speculative design]
-  description: ["A workshop where participants discuss the social and political implications of smart cities through speculative design and cartography.", "Participants create speculative scenarios for a future 'São Paulo Smart City.' Then, they design basemaps and map-based narratives for their scenarios."]
-  team: [Leila Santiago]
 
 - title: Getting to Zero - Waste Journeys
   status: published
   order: 8
-  hash: gtz
+  hash: getting-to-zero
   date: 2017-03-01
   mainImage: "getting-to-zero-1.png"
   mainGif:
@@ -75,12 +64,14 @@
     - "Possible journeys for New York City’s waste, in a web-based visualization."
     - "Designed as a cross-section of these journeys, the visualization uses photo montages, texts, and animated maps to convey its logistics."
   team:
-  client: [Open House New York]
+  client:
+    - name: Open House New York
+      url: https://ohny.org/
 
 - title: Brazilian Cities Commute Map
   status: published
   order: 5
-  hash: bcc
+  hash: brazilian-cities-commute
   date: 2018-03-01
   mainImage:
   mainGif:
@@ -95,12 +86,12 @@
   client:
   media:
     - name: "ANTP Congress, 2018"
-      link: "https://medidasp.com/assets/pdfs/artigo-antp-tempo-deslocamento.pdf"
+      url: "https://medidasp.com/assets/pdfs/artigo-antp-tempo-deslocamento.pdf"
 
 - title: No-Delivery Areas
   status: published
   order: 6
-  hash: nda
+  hash: no-delivery-areas
   date: 2017-03-01
   mainImage:
   mainGif:
@@ -115,16 +106,14 @@
   client:
   media:
     - name: Nexo Jornal
-      link: "https://www.nexojornal.com.br/expresso/2017/11/12/Este-mapa-mostra-os-lugares-de-S%C3%A3o-Paulo-onde-os-Correios-nem-sempre-chegam"
-    - name: Folha de São Paulo
-      link: "https://www1.folha.uol.com.br/cotidiano/2017/12/1946271-violencia-restringe-entrega-de-produto-pelos-correios-em-29-da-cidade-de-sp.shtml"
+      url: "https://www.nexojornal.com.br/expresso/2017/11/12/Este-mapa-mostra-os-lugares-de-S%C3%A3o-Paulo-onde-os-Correios-nem-sempre-chegam"
     - name: UOL TAB
-      link: "https://tab.uol.com.br/noticias/redacao/2019/04/25/onde-o-correio-nao-chega-por-temor-de-roubo-mercearia-vira-caixa-postal.htm"
+      url: "https://tab.uol.com.br/noticias/redacao/2019/04/25/onde-o-correio-nao-chega-por-temor-de-roubo-mercearia-vira-caixa-postal.htm"
 
 - title: "'Decorrência' (Consequence)"
   status: published
   order: 10
-  hash: csq
+  hash: consequence
   date: 2018-03-01
   mainImage:
   mainGif:
@@ -155,5 +144,7 @@
     - "A map-based digital narrative about the occupation of Palestine, commissioned by the Israeli NGO B'Tselem."
     - "As the user scrolls, map layers and animations are triggered, narrating a timeline of the more than five decades of occupation."
   team: [Francesco Sebregondi (Project Coordinator)]
-  client: [Forensic Architecture]
+  client:
+    - name: Forensic Architecture
+      url: https://forensic-architecture.org/
   media:

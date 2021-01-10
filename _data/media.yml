@@ -1,0 +1,16 @@
+- name: G1 Globo
+  title: Estudo mostra que 66% de mortos por Covid-19 na Grande SP ganhavam menos de 3 salários mínimos
+  url: https://g1.globo.com/sp/sao-paulo/noticia/2020/06/16/estudo-mostra-que-66percent-de-mortos-por-covid-19-na-grande-sp-ganhavam-menos-de-3-salarios-minimos.ghtml
+  date: 2020-06-16
+- name: CNN Brasil
+  title: "Exclusivo: para 20% dos lares brasileiros, isolamento vertical é impossível"
+  url: https://www.cnnbrasil.com.br/nacional/2020/04/22/para-20-dos-lares-brasileiros-isolamento-vertical-e-impossivel-diz-estudo
+  date: 2020-04-22
+- name: Nexo Jornal
+  title: Este mapa mostra os lugares de São Paulo onde os Correios nem sempre chegam
+  url: https://www.nexojornal.com.br/expresso/2017/11/12/Este-mapa-mostra-os-lugares-de-S%C3%A3o-Paulo-onde-os-Correios-nem-sempre-chegam
+  date: 2017-11-12
+- name: UOL TAB
+  title: Em periferia de SP sem CEP ou segurança, até mercearia vira caixa postal
+  url: https://tab.uol.com.br/noticias/redacao/2019/04/25/onde-o-correio-nao-chega-por-temor-de-roubo-mercearia-vira-caixa-postal.htm
+  date: 2019-04-25

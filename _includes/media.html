@@ -1,0 +1,19 @@
+<section id="media">
+  <h2>Media</h2>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <ul class="list-group list-group-flush">
+      {% assign media = site.data.media | sort: "date" | reverse %}
+      {% for m in media %}
+        <a href="{{ m.url }}" target="_blank" class="text-color list-group-item list-group-item-action flex-column align-items-start">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ m.name }}</h5>
+            <small>{{ m.date | date: '%m-%Y'  }}</small>
+          </div>
+          <p class="mb-1">{{ m.title }}</p>
+        </a>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

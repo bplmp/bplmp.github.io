@@ -1,0 +1,7 @@
+{% if project.media != nil %}
+	<p class="small">media:
+		{% for media in project.media %}
+			<span><a href="{{ media.url }}" target="_blank">{{ media.name }}</a>{% if forloop.last == false %},{% endif %}</span>
+		{% endfor %}
+	</p>
+{% endif %}

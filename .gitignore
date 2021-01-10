@@ -1,6 +1,5 @@
 *.DS_Store
 node_modules/
-css/
 tmp/
 _site/
 .jekyll-cache/*

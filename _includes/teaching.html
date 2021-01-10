@@ -1,0 +1,45 @@
+<section id="teaching">
+  <h2>Teaching</h2>
+  <div class="row">
+    {% assign teaching = site.data.teaching | where: "status", "published" | sort: "order" %}
+    {% for project in teaching %}
+      <div class="col-xs-12 col-md-6 project">
+
+        {% assign images = project.otherImages %}
+        {% assign hash = project.hash %}
+        {% include carousel.html hash=hash images=images %}
+
+        <div class="project-text">
+          <a data-toggle="collapse" href="#{{ project.hash }}" role="button" aria-expanded="false" aria-controls="{{ project-hash }}">
+            <h4>{{ project.title }}  &#9660;</h4>
+          </a>
+          {% for p in project.description %}
+            {% if forloop.first == true %}
+              <p class="project-p">{{ p }}</p>
+            {% endif %}
+          {% endfor %}
+          <div class="collapse" id="{{ project.hash }}">
+            <div class="card card-body">
+              {% for p in project.description %}
+                {% if forloop.first == false %}
+                  <p class="project-p">{{ p }}</p>
+                {% endif %}
+              {% endfor %}
+              <a href="{{ project.url }}" target="_blank">
+                Site &raquo;
+              </a>
+              <hr>
+              <!-- <p class="small">tools: <span>{{ project.tools | array_to_sentence_string: "" }}</span></p> -->
+              {% if project.team != nil %}
+                <p class="small">team: <span>{{ project.team | array_to_sentence_string: "" }}</span></p>
+              {% endif %}
+              {% include clients_footer.html %}
+              {% include media_footer.html %}
+              <p class="small">{{ project.date | date: '%Y' }} | <span>{{ project.tags | array_to_sentence_string: "" }}</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
